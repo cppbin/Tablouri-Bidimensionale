@@ -1,4 +1,4 @@
-/** Calculati produsul a doua matrice **/
+/** Calculati produsul a doua matrici **/
 
 #include <iostream>
 #include <iomanip>
