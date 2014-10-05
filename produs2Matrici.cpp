@@ -3,7 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #define dmax 10
-
+//Ma was here
 using namespace std;
 
 void citireMatrice(int a[][dmax], int m, int n)
