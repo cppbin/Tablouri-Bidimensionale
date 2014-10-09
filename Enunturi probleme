@@ -1,0 +1,50 @@
+TABLOURI BIDIMENSIONALE
+
+1. Se consideră o matrice nepătratică (nxm) care conţine elemente de tip real. Să se determine cel mai mare, respectiv cel mai mic element al său. Să se afişeze aceste elemente şi indicii lor.
+
+2. Să se înlocuiască elementul maxim de pe fiecare coloană a unei matrice cu suma elementelor de pe coloana respectivă.
+
+3. Fie A o matrice cu elemente numere reale. Să se formeze un şir X definit în felul următor: x1 este maximul elementelor de pe coloanele 1 şi 2, x2 este maximul elementelor de pe coloanele 3 şi 4, etc. Dacă matricea are un număr impar de coloane, atunci ultimul element al şirului este maximul elementelor de pe ultima coloană a matricei.
+
+4. Se dă o matrice A. Să se introducă indicii elementelor subunitare pozitive în liniile unei matrice B cu două coloane.
+
+5. Se dă o matrice pătratică A. Să se înlocuiască elementele sale situate pe diagonala principală şi pe diagonala secundară cu valoarea 0 (zero).
+
+6. Se dă o matrice pătratică A de dimensiune nxn. Să se formeze o matrice pătratică simetrică B de aceeaşi dimensiune, ale cărei elemente sunt definite prin relaţia:
+		b[i, j] = (a[i, j] + a[j, i] ) / 2
+
+7. Se dă un tablou bidimensional A cu n linii şi m coloane, de componente întregi. Se cere să se elimine din tablou linia p (1 ≤ p ≤  n).
+
+8. Se dă un tablou bidimensional B cu n linii şi m coloane de componente întregi. Să se determine minimul fiecărei coloane şi minimul lui B.
+
+9. Se consideră o matrice pătratică cu n linii care conţine date de tip integer. Să se alcătuiască un program Pascal care afişează pe ecran, pe o singură linie, suma elementelor pare de pe fiecare coloană.
+
+10. Se consideră un tablou bidimensional (nxm) cu elemente întregi. Să se creeze un program care ordonează descrescător elementele situate pe liniile cu număr de ordine impar (prima linie, linia a treia, ş.a.m.d.). La afişare, elementele tabloului vor fi scrise sub forma unui tabel de n linii şi m coloane.
+
+11. Se consideră o matrice pătratică (nxn) ce conţine numere întregi. Realizaţi un program care inversează liniile şi coloanele matricei pentru ca elementele diagonalei principale să fie ordonate crescător.
+
+12. Să se construiască un tablou pătratic de dimensiune n2 (1 ≤ n ≤  50) cu primele n numere pare începând cu 2.
+Exemplu:	Pentru n=4 se va afişa:
+			2    4   6   8
+			10  12  14  16
+      18  20  22  24
+      26  28  30  32
+13. Se dă un tablou bidimensional cu n linii şi m coloane (1 ≤ n, m ≤  50) având componente binare. Fiecare linie constituie reprezentarea câte unui număr natural în baza 10. Se cere să se afişeze aceste numere.
+Exemplu:	
+Pentru n=5, m=4 şi tabloul:
+ 0  0  1  1		
+ 1  0  0  1
+ 1  1  1  0
+ 0  1  0  1
+ 0  0  0  0
+se va afişa: 3  9  14  5  0
+14. Se dă un tablou bidimensional cu n linii şi m coloane (1 ≤ n, m ≤  50) având componente întregi. Se cere să se determine cel mai mare număr de pe marginea tabloului, precum şi de câte ori apare el. Aceste numere vor fi scrise pe rânduri diferite.
+Exemplu:	
+Pentru n=5, m=4 şi tabloul:
+ 1  2  3  4		
+ 1  5  1  1
+ 3  7  8  5
+ 5  3  8  3
+3  2  2  5
+se va afişa:
+5   3
